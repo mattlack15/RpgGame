@@ -14,7 +14,7 @@ may have hitboxes or may allow you to move through them.
 
 ## Design
 As mentioned before the world is made of "blocks" and has "world objects" overlayed on it. Entities are things that can exist in the world and move around such as dropped items, or players.
-The UI is implemented entirely using the Graphics object from java.awt and all drawn to the same panel (I have since finally put in the effort to learn swing). Different parts of
+The UI is implemented entirely using the Graphics object from java.awt and all drawn to the same panel (I have since finally put in the effort to learn swing, however I'd still make this game the same way likely). Different parts of
 the UI are implemented using subclasses of the Renderer class, each handles a different part of the UI like objective, hotbar, blocks or entities. The world is composed of a
 fixed size array of integers representing dynamic ids for different "blocks". Much of this is similar to the way the game Minecraft is implemented as I started out programming Minecraft plugins.
 WorldMap is the class that stores the blocks and is serializable/savable. It also stores a list of WorldObjects like trees and houses. There are different registries of types throughout the project
