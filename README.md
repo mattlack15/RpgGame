@@ -1,5 +1,8 @@
 # RpgGame
-This was my Grade 12 computer science culminating project. I made it with the help of a friend who drew most of the graphics on her ipad.
+
+This was my Grade 12 computer science culminating project. I made it with the help of a friend who
+drew most of the graphics. It was quite a fun class and this is what came out of it.
+
 <img width="995" alt="Screenshot 2023-11-24 at 11 13 55 PM" src="https://github.com/mattlack15/RpgGame/assets/53711531/07bd6885-e5fa-401a-8fb6-0ef1596c8511">
 
 ## Gameplay
